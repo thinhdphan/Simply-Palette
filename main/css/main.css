@@ -9,39 +9,3 @@
   text-align: center;
   top: 140px;
 }
-
-.description-span-color {
-  animation: rainbow linear 5s infinite;
-
-}
-
-@keyframes rainbow {
-  0% {
-    color: hwb(0grad 0% 0%);
-    opacity: .7;
-  }
-
-  25% {
-    color: hwb(100grad 0% 0%);
-    opacity: .7;
-
-  }
-
-  50% {
-    color: hwb(200grad 0% 0%);
-    opacity: .7;
-
-  }
-
-  75% {
-    color: hwb(300grad 0% 0%);
-    opacity: .7;
-
-  }
-
-  100% {
-    color: hwb(400grad 0% 0%);
-    opacity: .7;
-
-  }
-}
