@@ -6,7 +6,7 @@
 }
 
 h1 {
-  animation: description-title-load 600ms ease-in;
+  animation: description-title-load 500ms ease-in;
   animation-fill-mode: forwards;
   animation-delay: 300ms;
   transform: translateY(-20px);

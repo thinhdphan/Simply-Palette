@@ -15,7 +15,6 @@ nav {
 .logo {
   margin: .2rem;
   cursor: pointer;
-  transition: all 300ms;
   position: relative;
   text-decoration: none;
   font-family: Inter, sans-serif;
@@ -24,14 +23,6 @@ nav {
   color: #b3b3b3;
   left: 10.6rem;
   cursor: pointer;
-}
-
-.logo:hover {
-  opacity: .7;
-}
-
-.marked {
-  right: 10px;
 }
 
 .contact,
@@ -47,6 +38,16 @@ nav {
   border: 2px solid #b3b3b3;
   transition: all 300ms;
   z-index: 1;
+}
+
+.marked {
+  right: 10px;
+  padding-left: 20px;
+}
+
+.marked-counter {
+  position: relative;
+  right: 4px;
 }
 
 .contact:hover,
