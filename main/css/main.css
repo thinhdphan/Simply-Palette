@@ -3,12 +3,12 @@
   position: relative;
   top: 160px;
   width: 100%;
-  height: 800px;
+  height: auto;
 }
 
 .description-title {
   display: block;
-  width: 80%;
+  width: 60%;
   margin: auto;
   font-family: Inter, sans-serif;
   font-weight: bold;
@@ -17,4 +17,29 @@
   text-align: center;
 }
 
-.grid-container {}
+.small-description {
+  font-family: Inter, sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.grid-container {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 112px;
+  justify-items: center;
+}
+
+.palette-container {
+  display: grid;
+}
+
+.palette-container {
+  border-radius: 8px;
+  overflow: auto;
+
+}
