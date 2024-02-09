@@ -36,6 +36,7 @@
 
 .palette-container {
   display: grid;
+  border: 1px solid #b3b3b3;
 }
 
 .palette-container {
